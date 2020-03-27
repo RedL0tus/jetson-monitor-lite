@@ -1,0 +1,16 @@
+[package]
+name = "jetson_monitor_lite"
+version = "0.1.0"
+license = "MIT"
+authors = ["Kay Lin <i@v2bv.net>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "^0.4"
+ssd1306 = "^0.3"
+systemstat = "^0.1"
+pretty_env_logger = "^0.4"
+embedded-graphics = "^0.6"
+linux-embedded-hal = "^0.3"
